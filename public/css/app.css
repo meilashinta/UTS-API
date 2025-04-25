@@ -1,0 +1,109 @@
+/* Font pastel & tampilan estetik */
+body {
+    background: linear-gradient(180deg, #fef6f9, #f0f7ff);
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background: linear-gradient(90deg, #dfe9f3, #fde2e4);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #6b4c8f !important;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #6b4c8f !important;
+    font-weight: 500;
+    margin-right: 1rem;
+  }
+  
+  .navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: #4c1d95 !important;
+  }
+  
+  /* Container */
+  .container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  /* Card Produk */
+  .card {
+    background: #ffffff;
+    border: 1px solid #eee;
+    border-radius: 18px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+  }
+  
+  .card img {
+    background-color: #fef6f9;
+    object-fit: contain;
+    height: 200px;
+    border-radius: 12px;
+    padding: 1rem;
+  }
+  
+  .card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #6b4c8f;
+  }
+  
+  .card-text {
+    color: #ec4899;
+    font-weight: bold;
+  }
+  
+  /* Tombol */
+  .btn-primary {
+    background: linear-gradient(90deg, #a78bfa, #f472b6);
+    border: none;
+    font-weight: 600;
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background: linear-gradient(90deg, #8b5cf6, #ec4899);
+    transform: scale(1.03);
+  }
+  
+  /* Halaman Detail Produk */
+  .product-detail h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #4c1d95;
+  }
+  
+  .product-detail span {
+    font-size: 1.8rem;
+    color: #ec4899;
+  }
+  
+  .product-detail p {
+    color: #6b7280;
+    line-height: 1.6;
+  }
+  
+  /* Responsive Gambar Detail */
+  img.object-fit-contain {
+    object-fit: contain;
+    max-height: 400px;
+    border-radius: 12px;
+  }
+  
